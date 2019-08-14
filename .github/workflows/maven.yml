@@ -18,4 +18,5 @@ jobs:
         mvn package --file pom.xml
         pwd
         ls
-        java -jar /home/runner/work/HttpFileUtil/HttpFileUtil/target/HttpFileUtil-1.0-SNAPSHOT.jar
+        cd target
+        java -jar HttpFileUtil-1.0-SNAPSHOT.jar
