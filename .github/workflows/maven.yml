@@ -17,6 +17,5 @@ jobs:
       run: |
         mvn package --file pom.xml
         pwd
-        ls
-        cd target
-        java -jar HttpFileUtil-1.0-SNAPSHOT.jar
+        df -h
+        
